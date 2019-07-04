@@ -1,3 +1,15 @@
+.aside-top{
+    max-width: 200px;
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+.aside-bottom{
+    max-width: 200px;
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
 .author-info{
     text-align: center;
 }
@@ -45,7 +57,7 @@
 
 .tags{
     margin-top: 10%;
-    border: 1px solid black;
+    border: 1px dashed black;
 }
 
 .tags p{
@@ -94,25 +106,17 @@
     font-size: 12px;
 }
 
-.aside-top{
-    grid-row-start: 1;
-    grid-column-start: 2;
-    
-}
-
-.aside-bottom{
-    grid-column-start: 2;
-    grid-row-start: 2;
-    
-}
-
 @media screen and (max-width: 600px) {
     aside.aside-bottom{
+        max-width: 600px;
+        justify-self: center;
         grid-column-start: 1;
-        grid-row-start: 3;
+        grid-row-start: 4;
     }
     aside.aside-top{
-        grid-row-start: 1;
+        max-width: 600px;
+        justify-self: center;
+        grid-row-start: 2;
         grid-column-start: 1;
     }
 }
