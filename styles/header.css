@@ -85,7 +85,6 @@ nav a:hover
   margin-top: 10px;
   z-index: 1;
   
-  -webkit-user-select: none;
   user-select: none;
 }
 
@@ -100,8 +99,6 @@ nav a:hover
   
   opacity: 0; 
   z-index: 2; 
-  
-  -webkit-touch-callout: none;
 }
 
 #menuToggle span
@@ -160,7 +157,6 @@ nav a:hover
   
   background: #ededed;
   list-style-type: none;
-  -webkit-font-smoothing: antialiased;
   
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
